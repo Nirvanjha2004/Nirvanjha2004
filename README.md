@@ -3,7 +3,7 @@
 <p align="center">
   <a href="https://github.com/Nirvanjha2004?tab=followers"><img src="https://img.shields.io/github/followers/Nirvanjha2004?logo=github&style=flat&color=38bdf8" alt="followers"/></a>
   <a href="https://github.com/Nirvanjha2004?tab=repositories"><img src="https://img.shields.io/badge/repositories-60-38bdf8?style=flat&logo=github" alt="repositories"/></a>
-  <a href="https://github.com/Nirvanjha2004"><img src="https://img.shields.io/badge/stars-0-38bdf8?style=flat&logo=github" alt="stars"/></a>
+  <a href="https://github.com/Nirvanjha2004"><img src="https://img.shields.io/badge/open%20to%20work-38bdf8?style=flat&logo=github&label=%20" alt="open to work"/></a>
   <img src="https://komarev.com/ghpvc/?username=Nirvanjha2004&label=views&color=38bdf8&style=flat" alt="profile views"/>
 </p>
 
@@ -144,5 +144,4 @@
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=Nirvanjha2004&label=Profile%20Views&color=38BDF8&style=flat" alt="Visitor count"/>
-  <img src="https://www.google.com/ima/images/favicon.ico" alt="" width="0" height="0"/>
 </p>
