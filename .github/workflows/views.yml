@@ -1,0 +1,48 @@
+name: Update profile views
+
+on:
+  schedule:
+    - cron: "23 4 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Fetch profile view count
+        id: views
+        run: |
+          DATA=$(curl -sf -H "Accept: application/vnd.github+json" \
+            -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
+            "https://api.github.com/repos/${{ github.repository_owner }}/${{ github.event.repository.name }}/traffic/views") || exit 0
+          COUNT=$(echo "$DATA" | jq -r '.count // 0')
+          UNIQUE=$(echo "$DATA" | jq -r '.uniques // 0')
+          echo "count=$COUNT" >> "$GITHUB_OUTPUT"
+          echo "uniques=$UNIQUE" >> "$GITHUB_OUTPUT"
+
+      - name: Update db/views.json
+        run: |
+          NEW=${{ steps.views.outputs.count }}
+          OLD=$(jq -r '.count // 0' db/views.json 2>/dev/null || echo 0)
+          # never regress, never wipe the counter if the API misbehaves
+          if [ "$NEW" -le 0 ] 2>/dev/null; then
+            echo "API returned no data, keeping $OLD"
+            exit 0
+          fi
+          if [ "$NEW" -lt "$OLD" ]; then
+            echo "API count $NEW below stored $OLD, keeping $OLD"
+            exit 0
+          fi
+          printf '{\n  "count": %s,\n  "updated": "%s"\n}\n' "$NEW" "$(date -u +%Y-%m-%d)" > db/views.json
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add db/views.json
+          if git diff --staged --quiet; then
+            echo "no change"
+            exit 0
+          fi
+          git commit -m "chore: update profile views to $NEW"
+          git push
