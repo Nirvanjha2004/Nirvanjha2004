@@ -103,7 +103,7 @@
 ## 📊 GitHub Pulse
 
 <div align="center">
-  <a href="https://github.com/Nirvanjha2004"><img src="https://github-readme-stats.vercel.app/api?username=Nirvanjha2004&show_icons=true&theme=radical&hide_border=true&include_all_commits=true&count_private=true" alt="Nirvanjha2004 GitHub stats"/></a>
+  <a href="https://github.com/Nirvanjha2004"><img src="https://github-readme-stats.vercel.app/api?username=Nirvanjha2004&show_icons=true&theme=radical&hide_border=true&include_all_commits=true&count_private=true&rank_icon=github" alt="GitHub stats"/></a>
   <a href="https://github.com/Nirvanjha2004"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nirvanjha2004&layout=compact&theme=radical&hide_border=true&langs_count=8" alt="Top languages"/></a>
 </div>
 
@@ -111,19 +111,22 @@
 
 <div align="center">
   <a href="https://streakstats.demolab.com"><img src="https://streak-stats.demolab.com?user=Nirvanjha2004&theme=radical&hide_border=true" alt="Contribution streak"/></a>
-  <a href="https://github.com/Nirvanjha2004"><img src="https://github-profile-trophy.vercel.app/?username=Nirvanjha2004&theme=radical&no-frame=true&no-bg=true&column=7" alt="Trophies"/></a>
+  <a href="https://github.com/Nirvanjha2004"><img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Nirvanjha2004&theme=radical&include_all_commits=true" alt="Profile details"/></a>
 </div>
 
 <br/>
 
-<p align="center">
-  <a href="https://github.com/Nirvanjha2004"><img src="https://github-readme-activity-graph.vercel.app/graph?username=Nirvanjha2004&theme=react&hide_border=true&area=true" alt="Contribution activity"/></a>
-</p>
+<div align="center">
+  <a href="https://github.com/Nirvanjha2004"><img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Nirvanjha2004&theme=radical" alt="Repositories per language"/></a>
+  <a href="https://github.com/Nirvanjha2004"><img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Nirvanjha2004&theme=radical" alt="Most productive time"/></a>
+</div>
 
 <br/>
 
+<h3 align="left">🐍 Contribution Snake</h3>
+
 <p align="center">
-  <img src="https://platane.github.io/snk/?bot=Nirvanjha2004&owner=Nirvanjha2004" alt="Contribution snake animation"/>
+  <img src="https://raw.githubusercontent.com/Nirvanjha2004/Nirvanjha2004/output/github-contribution-grid-snake-dark.svg" alt="Contribution snake animation, regenerated every 24 hours"/>
 </p>
 
 ## 🤝 Let's Build
