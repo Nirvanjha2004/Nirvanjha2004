@@ -4,7 +4,7 @@
   <a href="https://github.com/Nirvanjha2004?tab=followers"><img src="https://img.shields.io/github/followers/Nirvanjha2004?logo=github&style=flat&color=38bdf8" alt="followers"/></a>
   <a href="https://github.com/Nirvanjha2004?tab=repositories"><img src="https://img.shields.io/badge/repositories-60-38bdf8?style=flat&logo=github" alt="repositories"/></a>
   <a href="https://github.com/Nirvanjha2004"><img src="https://img.shields.io/badge/open%20to%20work-38bdf8?style=flat&logo=github&label=%20" alt="open to work"/></a>
-  <img src="https://komarev.com/ghpvc/?username=Nirvanjha2004&label=views&color=38bdf8&style=flat&v=3" alt="profile views"/>
+  <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FNirvanjha2004%2FNirvanjha2004%2Fmain%2Fdb%2Fviews.json&query=%24.count&label=views&color=38bdf8&style=flat" alt="profile views"/>
 </p>
 
 <p align="center">
@@ -146,5 +146,5 @@
 ---
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Nirvanjha2004&label=Profile%20Views&color=38BDF8&style=flat" alt="Visitor count"/>
+  <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FNirvanjha2004%2FNirvanjha2004%2Fmain%2Fdb%2Fviews.json&query=%24.count&label=Profile%20Views&color=38BDF8&style=flat" alt="Visitor count"/>
 </p>
