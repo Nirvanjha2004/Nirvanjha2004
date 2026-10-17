@@ -12,7 +12,7 @@
 </p>
 
 <p align="center">
-  <b>B.Tech Computer Science &amp; Engineering · IIIT Ranchi · Class of 2027</b><br/>
+  <b>B.Tech Computer Science &amp; Engineering · IIIT Chennai · Class of 2027</b><br/>
   <i>I like hard systems problems — CRDT editors, job orchestrators, AI agents and ML pipelines that survive real traffic.</i>
 </p>
 
@@ -118,7 +118,7 @@
 
 <div align="center">
   <a href="https://github.com/Nirvanjha2004"><img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Nirvanjha2004&theme=radical" alt="Repositories per language"/></a>
-  <a href="https://github.com/Nirvanjha2004"><img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Nirvanjha2004&theme=radical" alt="Most productive time"/></a>
+  <a href="https://github.com/Nirvanjha2004"><img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Nirvanjha2004&theme=radical&v=2" alt="Most productive time"/></a>
 </div>
 
 <br/>
